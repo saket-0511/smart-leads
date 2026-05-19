@@ -5,16 +5,12 @@
 
     "moduleResolution": "node",
 
-    "lib": ["ES2020"],
-
     "types": ["node"],
 
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
+    "lib": ["ES2020"],
 
-    "outDir": "./dist",
     "rootDir": "./src",
+    "outDir": "./dist",
 
     "strict": false,
 
@@ -23,11 +19,9 @@
 
     "skipLibCheck": true,
 
-    "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
 
-    "sourceMap": true,
-    "declaration": true
+    "sourceMap": true
   },
 
   "include": [
